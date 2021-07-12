@@ -14,8 +14,8 @@ public class AppTest {
   }
 
   @Test
-  public void testAppReturnHellowWorld() {
+  public void testAppReturnHelloWorld() {
     App classUnderTest = new App();
-    assertEquals("Hellow World!", classUnderTest.getGreeting());
+    assertEquals("Hello World!", classUnderTest.getGreeting());
   }
 }
